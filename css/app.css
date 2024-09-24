@@ -26,20 +26,23 @@ a{
     margin: auto;
 }
 
-.shop{
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+main{
+    padding: 60px 0;
+}
+
+.container.shop{
+    padding: 0 5px;
 }
 
 .row{
     display: flex;
-    flex-wrap: nowrap;
-    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 40px;
 }
 
 .col{
-    width: 33%;
+    width: 32.5%;
 }
 
 h4{
