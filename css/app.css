@@ -61,3 +61,51 @@ h4{
     color: black;
     text-decoration: line-through;
 }
+
+.discount{
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    padding: 4px 6px;
+}
+
+.sostenibility{
+    background-color: green;
+    color: white;
+    font-size: 14px;
+    padding: 4px 6px;
+}
+
+.col :hover .main-image{
+    opacity: 0;
+}
+
+/* position rules */
+
+.relative{
+    position: relative;
+}
+
+.heart{
+    background-color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
+
+.absolute-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.attractive-info{
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
