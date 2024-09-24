@@ -21,6 +21,33 @@ a{
 
 /* layout rules */
 
+/* header */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px 0;
+}
+
+.main-menu{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.logo{
+    display: block;
+    height: 30px;
+}
+
+/* main */
+
+.pad-top{
+    padding-top: 50px;
+}
+
 .container{
     max-width: 900px;
     margin: auto;
@@ -80,7 +107,82 @@ h4{
     opacity: 0;
 }
 
+/* non funziona */
+.heart :hover{
+    color: red;
+}
+
+.shop-menu{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
+.shop-menu li{
+    font-size: 25px;
+}
+
+.shop-menu  img{
+    height: 18px;
+    display: block;
+}
+
+/* footer */
+
+.container.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px 5px;
+}
+
+footer h4, .go-to{
+    text-transform: capitalize;
+    margin-bottom: 7px;
+}
+
+.privacy-policy{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.social-menu{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.social-menu img{
+    height: 18px;
+    display: block;
+}
+
+.social-menu li{
+    background-color: white;
+    font-size: 15px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+#facebook{
+    padding: 0;
+}
+
+#facebook img{
+    height: 28px;
+    width: 100%;
+}
+
 /* position rules */
+
+header{
+    background-color: orange;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
 
 .relative{
     position: relative;
@@ -108,4 +210,10 @@ h4{
     position: absolute;
     bottom: 20px;
     left: 0;
+}
+
+/* utilities */
+
+.bg-black, #facebook{
+    background-color: black;
 }
