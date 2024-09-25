@@ -61,6 +61,12 @@ main{
     padding: 0 5px;
 }
 
+.img-clothes > img{
+    aspect-ratio: 1/1.44;
+    object-fit: cover;
+    object-position: center;
+}
+
 .row{
     display: flex;
     flex-wrap: wrap;
